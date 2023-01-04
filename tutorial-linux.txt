@@ -1,0 +1,18 @@
+
+====================
+1) Instalar composer siguiendo los pasos (https://getcomposer.org/download/)
+2) Ejecutar: sudo apt install php-xmlwriter (https://stackoverflow.com/questions/6384979/how-to-enable-xmlwriter-after-php-having-been-compiled)
+3) Ejecutar: composer install
+========================
+
+Para entender el block.json de la carpeta src/blocks/header/block.json
+https://developer.wordpress.org/block-editor/reference-guides/block-api/block-registration/
+
+
+=========================
+
+Para el desarrollo ejecutar:
+npm run start:hot
+
+
+=========================

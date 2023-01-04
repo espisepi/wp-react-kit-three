@@ -7,5 +7,7 @@
  * @return {WPElement} Element to render.
  */
 export default function save() {
-	return null;
+	return (
+		<h1> Esto solo se ve en la parte frontal, la parte que ven los usuarios de la pagina (file save.tsx) </h1>
+	);
 }

@@ -21,6 +21,8 @@ export default function Edit({ attributes, setAttributes }) {
   const { title, description, bgColor, padding } = attributes;
 
   return (
+    <>
+    <h1>Hola mundo sepinaco, esto solo se ve en el editor gutenberg (file edit.tsx)</h1>
     <div
         {...useBlockProps()}
         style={{
@@ -28,6 +30,7 @@ export default function Edit({ attributes, setAttributes }) {
             padding: `${padding?.top} ${padding?.right} ${padding?.bottom} ${padding?.left}`
         }}
     >
+          <h1>Hola mundo sepinaco 2, esto se supone que solo se ve en el editor gutenberg, pero estaria flama que se viese en la parte frontal (file edit.tsx)</h1>
       <RichText
         className="wp-block-wp-react-kit-header_title"
         tagName="h2"
@@ -69,5 +72,6 @@ export default function Edit({ attributes, setAttributes }) {
             </PanelBody>
         </InspectorControls>
     </div>
+    </>
   );
 }

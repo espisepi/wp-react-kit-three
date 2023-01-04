@@ -5,14 +5,20 @@
 3) Ejecutar: composer install
 ========================
 
-Para entender el block.json de la carpeta src/blocks/header/block.json
+Para entender el block.json de la carpeta src/blocks/header/block.json :
 https://developer.wordpress.org/block-editor/reference-guides/block-api/block-registration/
 
+Para entender el codigo src/clocks/header/index.ts :
+https://codigoconjuan.com/creando-tu-primer-bloque-de-gutenberg-con-wp-scripts-javascript-y-react/
 
 =========================
 
 Para el desarrollo ejecutar:
 npm run start:hot
 
+
+=========================
+
+TODO: Tengo que averiguar como ver el block de gutenberg con react en el frontal, que no doy con la tecla de donde se modifica eso. (deberia ser save.tsx, pero no lo es)
 
 =========================

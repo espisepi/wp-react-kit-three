@@ -11,6 +11,10 @@ https://developer.wordpress.org/block-editor/reference-guides/block-api/block-re
 Para entender el codigo src/clocks/header/index.ts :
 https://codigoconjuan.com/creando-tu-primer-bloque-de-gutenberg-con-wp-scripts-javascript-y-react/
 
+La parte frontal se renderiza desde templates/blocks/header/markup.php, no desde el metodo save.tsx de src/blocks/header/save.tsx :
+https://developer.wordpress.org/block-editor/how-to-guides/block-tutorial/creating-dynamic-blocks/
+https://medium.com/nicasource/how-to-build-a-custom-dynamic-gutenberg-block-step-by-step-a345e97aee98
+
 =========================
 
 Para el desarrollo ejecutar:
@@ -20,5 +24,12 @@ npm run start:hot
 =========================
 
 TODO: Tengo que averiguar como ver el block de gutenberg con react en el frontal, que no doy con la tecla de donde se modifica eso. (deberia ser save.tsx, pero no lo es)
+
+TODO: En caso de no resolver el problema de usar el plugin para ver react por medio de gutenberg, podemos añadir react a una plantilla existente y crear una template child:
+Cómo agregar React a una plantilla de página personalizada:
+https://www.hostinger.es/tutoriales/wordpress-react#Como_consultar_la_API_REST_de_WP_desde_React
+
+nextjs gutenberg react:
+https://medium.com/geekculture/headless-wordpress-gutenberg-next-js-part-1-3-creating-a-block-with-react-e8d69e8460d4
 
 =========================
